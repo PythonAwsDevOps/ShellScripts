@@ -12,20 +12,24 @@ do
    echo "This is infinity loop, press ctrl + c to stop it"
 done
 mycomment
-
-#Mehod-3: for loop with command line arguments
+#Mehod-3 for loop with arrays:
+for each in "${myarray[@]}"
+do
+   echo "value is: $each"
+done
+#Mehod-4: for loop with command line arguments
 for arg in $*
 do
    echo "my argment is: $arg"
 done
 
-#Mehod-4: for loop with list of values
+#Mehod-5: for loop with list of values
 for each in 34 "raju" 56 87 "nari"
 do
    echo "each value is: $each"
 done
 
-#Mehod5: for loop with commands
+#Mehod-6: for loop with commands
 for each in `ls`
 do
    echo "my file is $each"
