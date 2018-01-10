@@ -13,7 +13,7 @@ do
     echo "enter ctrl + c to end"
 done
 
-#or simple in method dont increment i value, so that method one becomes infinity loop
+#or simple in method dont increment i value, so that method one becomes infinity loop, or while : also works as infinity loop
 mycomment
 #Mehod-3: While loop for arrays
 myarray=(1 24 52 67 68)
